@@ -1,0 +1,8 @@
+version: 1.0
+runtime: 
+  language: python
+  version: 3.8
+source_code_repository:
+  url: https://github.com/IronCeo/django-photo-gallery/
+  build_command: "pip install -r requirements.txt"
+  start_command: "python manage.py runserver"
